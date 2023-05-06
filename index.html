@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <meta name="description" content="Ian Mendoza's Portfolio" />
+        <link href="https://googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap"
+        rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="styles.css" />
+        <title>Ian Mendoza</title>
+    </head>
+    <body class="light" id="top">
+        <header class="header center">
+            <h3>
+                <a class="link" href="index.html" target="_blank"
+            >IM.</a>
+            </h3>
+
+            <nav class="nav center">
+                <ul class="nav__list center">
+                    <li class="nav__item">
+                        <a class="link nav__link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="link nav__link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="link nav__link" href="#contact" >Contact</a>
+                    </li>
+                </ul>
+
+                <button class="btn btn__icon" type="button"  aria-label="enable darkmode">
+                    <i class="icon__moon" id="darkmode-theme" aria-hidden="true"></i>
+                </button>
+            </nav>
+        </header>
+
+
+        <main>
+            <!-- About Me! -->
+            <div class="about me center">
+                <h1>
+                    Welcome! I'm
+                    <span class="about__me__name">Ian Mendoza.</span>
+                </h1>
+                <h2 class="about__me__career__path">Aspiring Software Developer and Data Scientist</h2>
+                <p class="about__me__desc">
+                    I am a motivated UC Berkeley sophomore pursuing
+                    a Bachelors degree in Data Science and a minor in Computer Science.
+                    I'm a lifelong learner and I might just have a thing for Dino Nuggets.
+                </p>
+
+                <div class="about__me__contact center">
+                    <a href="https://example.com" target="_blank">
+                        <span class="btn btn__outline">Resume</span>
+                    </a>
+
+                    <a
+                            href="https://github.com/doza03" target="_blank"
+                            aria-label="github"
+                            class="link link__icon"
+                    >
+                        <i aria-hidden="true" class="fab fa-github"></i>
+                    </a>
+
+                    <a
+                        href="https://linkedin.com/" target="_blank"
+                        aria-label="linkedin"
+                        class="link link__icon"
+                    >
+                        <i aria-hidden="true" class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <section class="section project" id="projects">
+                <h2 class="section__title">Projects</h2>
+
+                <div class="projects__grid">
+                    <div class="project">
+                        <h3>Project 1</h3>
+                        <p class="project__description">
+                            Placeholder text, incoming...
+                        </p>
+                        <u1 class="project__stack">
+                            <li class="project_lang">HTML</li>
+                            <li class="project_lang">CSS</li>
+                            <li class="project_lang">JavaScript</li>
+                        </u1>
+
+                        <a
+                                href="https://github.com" target="_blank"
+                            aria-label="source code"
+                            class="gitlink"
+                            >
+                            <i aria-hidden="true" class="fab fa-github"></i>
+                        </a>
+
+                        <a
+                            href="https://example.com" target="_blank"
+                            aria-label="live preview"
+                            class="live link"
+                            >
+                            <i aria-hidden="true" class="fas fa-external-link"></i>
+                        </a>
+                    </div>
+
+                    <div class="project">
+                        <h3>Project 2</h3>
+                        <p class="project__description">
+                            Placeholder text, incoming...
+                        </p>
+                        <u1 class="project__stack">
+                            <li class="project_lang">Python</li>
+                        </u1>
+
+                        <a
+                                href="https://github.com" target="_blank"
+                                aria-label="source code"
+                                class="gitlink"
+                        >
+                            <i aria-hidden="true" class="fab fa-github"></i>
+                        </a>
+
+                        <a
+                                href="https://example.com" target="_blank"
+                                aria-label="live preview"
+                                class="live link"
+                        >
+                            <i aria-hidden="true" class="fas fa-external-link"></i>
+                        </a>
+                    </div>
+
+                    <div class="project">
+                        <h3>Project 3</h3>
+                        <p class="project__description">
+                            Placeholder text, incoming...
+                        </p>
+                        <u1 class="project__stack">
+                            <li class="project_lang">Java</li>
+                        </u1>
+
+                        <a
+                                href="https://github.com" target="_blank"
+                                aria-label="source code"
+                                class="gitlink"
+                        >
+                            <i aria-hidden="true" class="fab fa-github"></i>
+                        </a>
+
+                        <a
+                                href="https://example.com" target="_blank"
+                                aria-label="live preview"
+                                class="live link"
+                        >
+                            <i aria-hidden="true" class="fas fa-external-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <u1 class="skills list">
+                    <li class="skills__list__item">HTML</li>
+                    <li class="skills__list__item">CSS</li>
+                    <li class="skills__list__item">JavaScript</li>
+                    <li class="skills__list__item">Python</li>
+                    <li class="skills__list__item">Java</li>
+                    <li class="skills__list__item">Git</li>
+                </u1>
+            </section>
+
+            <!-- Contact -->
+            <section class="contact section center" id="contact">
+                <h2 class="section__title">Contact</h2>
+                    <a href="mailto:im25@berkeley.edu">
+                        <span class="email button">Email</span>
+                    </a>
+            </section>
+        </main>
+
+    <script src="js/main.js"></script>
+    </body>
+</html>
